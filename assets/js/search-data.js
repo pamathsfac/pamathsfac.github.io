@@ -72,7 +72,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "nav-ioqm-problem-set",
+          title: "IOQM Problem Set",
+          description: "Problem Set useful for IOQM preparation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ioqm/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
